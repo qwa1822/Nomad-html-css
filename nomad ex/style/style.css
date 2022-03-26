@@ -1,0 +1,121 @@
+body{
+    height:140vh;
+    border:3px solid pink;
+    
+}
+.header-menu{
+    margin-left:80px;
+}
+.header{
+    margin-top:50px;
+   
+}
+.header i{
+    margin-right:200px;
+    font-size:40px;
+}
+.header span{
+    font-size:40px;;
+    font-weight:600;
+}
+.content-image{
+    margin-top:100px;
+    display:flex;
+    
+}
+.content-image-blacpink{
+    width:200px;
+    font-size:52px;
+    height:200px;
+    background-color: #FFBD11;
+    border:1px solid black;
+    color:white;
+    border-radius:25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:15px;
+}
+.content-title{
+    display:flex;
+    flex-direction: column;
+    line-height:2;
+}
+
+.content-title__span{
+    font-size:36px;
+    font-weight:700;;
+    
+   
+}
+.content-title__span2{
+    font-size:18px;
+    font-weight:500;
+    opacity:0.7;
+}
+.go-play{
+    margin:100px 0px;
+    display:flex;
+    justify-content: space-between;
+}
+.menu-bar .fa-play{
+    width:300px;
+    height:100px;
+    border:1px solid pink;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50px;
+    box-shadow:0px 7px pink;
+}
+.go-play span{
+    margin-left:10px;
+    font-size:28px;
+    font-weight:600;
+}
+.go-play i{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.go-play .fa-heart{
+    width:100px;
+    height:100px;
+    border:2px solid pink;
+    border-radius:50%;
+    font-size:32px;
+    box-shadow:0px 7px pink;
+}
+.go-play .fa-plus{
+    width:100px;
+    height:100px;
+    border:2px solid pink;
+    border-radius:50%;
+    font-size:32px;
+    margin-right:80px;
+    box-shadow:0px 7px pink;
+
+}
+
+.image img{
+    width:100px;
+    height:100px;
+    background-color: red;;
+    border:1px solid black;
+    border-radius:10px;
+    margin-right:10px;
+}
+.footer{
+    display:flex;
+    flex-direction: column;
+}
+.footer-menu{
+    display:flex;
+    margin-bottom:30px;
+    
+}
+
+.footer-menu__span span{
+    
+    opacity:0.6;
+}
