@@ -1,0 +1,244 @@
+
+
+
+.main{
+    width:100%;
+    display:flex;
+    height:100vh;
+}
+.left-main{
+    width:50%;
+    border:1px solid black;
+    border-radius:25px;
+    height:100vh;
+}
+.left-main__header{
+    display:flex;
+    justify-content: space-between;
+}
+.left-main__header i{
+    margin:20px 30px;
+    font-size:20px;
+}
+.left-main__content{
+    display:flex;
+    justify-content: center;
+}
+
+.left-main__content__image{
+    width:100px;
+    height:100px;
+    border-radius:50px;
+
+}
+.left-main__content__span{
+    text-align:center;
+}
+.left-main__menu{
+    display:flex;
+    justify-content: space-around;
+    margin:40px 0px;
+}
+
+.left-main__menu__first_span{
+    color:white;
+    width:150px;
+    height:50px;
+    background-color: black;
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:20px;
+}
+.left-main__menu i{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:150px;
+    height:50px;
+    background-color: wheat;
+    border-radius:20px;
+    color:white;
+   
+}
+.left-main__two__span{
+    margin-left:5px;
+}
+.blackpink1{
+    width:70px;
+    height:70px;
+    border-radius:10px;
+    margin:0px 20px;
+}
+
+.left-main-footer{
+    display:flex;
+    flex-direction: column;
+}
+.left-footer{
+    display:flex;
+    align-items: center;
+    margin:20px 0px;
+}
+.left-main__footer__content__span{
+    display:flex;
+    flex-direction: column;
+    line-height:1.5;
+}
+.left__footer__firstspan{
+    color:rgba(0,0,0,0.3);
+    font-weight:600;
+
+}
+.left__foter__twospan{
+    font-size:20px;
+    font-weight:600;
+
+}
+
+
+.ellipsh{
+    margin-left:45%;    
+    color:rgba(0,0,0,0.2);
+}
+.left-main__playlist{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    height:100px;
+    background-color: black;
+    color:white;
+    
+    border-radius:50px;
+    position:fixed;
+    bottom:10;
+    width:48%;
+    box-sizing: border-box;
+    margin-top:-20px;
+    
+}
+.left-main__playlist__font{
+    display:flex;
+    flex-direction: column;
+    line-height:2.0;
+}
+.left-main__font__firstspan{
+    color:white;
+    opacity: 0.7;
+}
+.left-main__font__twospan{
+    color:white;
+    font-weight:600;
+}
+.left-main__playlist__icon i{
+    margin:0px 10px;
+}
+.right-main{
+    width:50%;
+    height:100vh;
+    margin:0px 10px;
+    border-radius:25px;
+    border:1px solid pink;
+}
+.right__header{
+    display:flex;
+    justify-content: space-between;
+}
+.right__header i{
+    margin:20px 30px;
+    font-size:20px;
+}
+.right__jisoo{
+    width:350px;
+    height:350px;
+    border-radius:50px;
+    box-shadow:0px 10px rgb(230, 176, 184);
+}
+.right__img{
+    margin:50px 0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.right__content__font{
+  text-align: center;
+}
+.right__content__font h2{
+    font-size:28px;
+}
+.right__content__font span{
+    color:rgba(0,0,0,0.3);
+}
+.right__time__span{
+    margin:40px 30px;
+    display:flex;
+    justify-content: space-between;
+
+}
+.right__time__span span{
+    font-size:12px;
+    color:rgba(0,0,0,0.2);
+    
+}
+.right__playlist{
+    display:flex;
+    justify-content: center;
+    border:1px solid black;
+    height:10px;
+    border-radius:10px;
+    width:90%;
+   margin-left:30px;
+   margin-top:-30px;    
+   background-color: rgba(0,0,0,0.2);
+   
+   position:relative;
+}
+.span1{
+    width:60%;
+    height:10px;
+    
+    background-color: black;
+    position:absolute;
+    left:0px;
+    border-radius:10px;
+}
+.span2{
+    width:15px;
+    height:15px;
+    border:1px solid black;
+    background-color: black;
+    border-radius:50%;
+    position:absolute;
+    right:180px;
+}
+.right__footer{
+    display:flex;
+    justify-content: space-around;
+    margin:50px 0px;
+    padding:20px 0px;
+}
+.right__footer .fa-sync-alt,.fa-random{
+    opacity:0.3;
+}
+
+
+.right__footer .fa-caret-right{
+    width:60px;
+    height:60px;
+    border-radius:30px;
+    color:white;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:-15px;
+    font-size:50px;
+    box-shadow:0px 3px pink;
+}
+
+
+
+
