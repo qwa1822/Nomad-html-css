@@ -1,0 +1,13 @@
+.more-screen .icon-row{
+    padding-top:35px;
+    display:flex;
+    flex-wrap:wrap;
+}
+.mores-sugeestions{
+    margin-top:30px;
+    border-top:1px solid black;
+    padding-top:40px;
+}
+.mores-sugeestions__title{
+    margin-bottom:20px;
+}
